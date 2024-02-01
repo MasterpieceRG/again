@@ -1,38 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <!--    <group>-->
-    <!--        <item-->
-    <!--            android:id="@+id/profile"-->
-    <!--            android:icon="@color/black"-->
-    <!--            android:title="Profile" />-->
-    <!--        <item-->
-    <!--            android:id="@+id/tableBooking"-->
-    <!--            android:icon="@color/black"-->
-    <!--            android:title="Table Booking" />-->
-    <!--        <item-->
-    <!--            android:id="@+id/setting"-->
-    <!--            android:icon="@color/black"-->
-    <!--            android:title="Setting" />-->
-    <!--        <item-->
-    <!--            android:id="@+id/logout"-->
-    <!--            android:icon="@color/black"-->
-    <!--            android:title="Logout" />-->
-    <!--    </group>-->
-
-    <!--    <group>-->
-    <!--        <item-->
-    <!--            android:menuCategory="system"-->
-    <!--            android:id="@+id/about"-->
-    <!--            android:icon="@color/black"-->
-    <!--            android:title="About" />-->
-    <!--        <item-->
-    <!--            android:id="@+id/share"-->
-    <!--            android:icon="@color/black"-->
-    <!--            android:title="Share" />-->
-    <!--    </group>-->
-
-    <!--</menu>-->
-
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/profile"
@@ -62,12 +29,12 @@
         <menu>
             <group android:checkableBehavior="single">
                 <item
-                    android:id="@+id/nav_share"
+                    android:id="@+id/share"
                     android:icon="@drawable/ic_share"
                     android:title="@string/menu_share" />
 
                 <item
-                    android:id="@+id/nav_about"
+                    android:id="@+id/about"
                     android:icon="@drawable/ic_about"
                     android:title="@string/menu_about" />
             </group>
